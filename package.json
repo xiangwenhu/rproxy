@@ -1,0 +1,25 @@
+{
+  "name": "rproxy",
+  "version": "1.0.0",
+  "description": "专门用来代理请求的项目， 现在很多的公网的请求都做了cors限定，贼烦。 就酱紫。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangwenhu/rproxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiangwenhu/rproxy/issues"
+  },
+  "homepage": "https://github.com/xiangwenhu/rproxy#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1"
+  }
+}

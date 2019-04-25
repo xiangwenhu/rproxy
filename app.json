@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "aproxy",
+      "script": "server.js",
+      // "node_args": "--experimental-modules"
+    }
+  ]
+}
